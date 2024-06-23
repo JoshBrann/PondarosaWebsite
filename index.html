@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pondarosa BBQ Catering</title>
+    <title>Home - Pondarosa BBQ Catering</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,8 +11,8 @@
     <header class="bg-dark text-white text-center py-3">
         <div class="container">
             <div class="d-flex align-items-center justify-content-center">
-                <img src="path-to-your-logo.png" alt="Company Logo" class="mr-3 logo-img">
-                <h1 class="m-0">Company Name</h1>
+                <img src="path-to-your-logo.png" alt="Pondarosa BBQ Catering Logo" class="mr-3 logo-img">
+                <h1 class="m-0">Pondarosa BBQ Catering</h1>
             </div>
         </div>
     </header>
@@ -25,7 +25,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
                 </ul>
@@ -34,46 +34,69 @@
     </nav>
 
     <main>
-        <section class="services py-5 text-center">
-            <div class="container">
-                <h2>Our Services</h2>
-                <p>We are a BBQ Catering that is family-owned with a passion for cooking. We strongly believe good food is the heart of any function. From weddings to birthdays, we believe we can make any event special.</p>
-                <h3>Services We Offer</h3>
-                <ul class="list-unstyled">
-                    <li>Weddings</li>
-                    <li>Corporate Events</li>
-                    <li>Private Functions such as Birthdays</li>
-                </ul>
-                <h3>Why BBQ Food?</h3>
-                <p>We make BBQ food because it's a time-honored tradition that brings people together. The rich, smoky flavors and the casual, relaxed atmosphere of a BBQ make it the perfect choice for any event. Whether it's a wedding, a corporate gathering, or a private party, BBQ food adds a unique and memorable touch.</p>
-                <h3>Our Equipment</h3>
-                <p>We use state-of-the-art BBQ and smoker equipment to ensure the highest quality and taste for our food. Our commitment to excellence means you get the best BBQ experience possible.</p>
-                <p><a href="about.html" class="btn btn-primary">Learn More About Us</a></p>
+        <section class="banner">
+            <div class="container-fluid">
+                <!-- Background video goes here -->
+                <div class="overlay"></div>
+                <div class="content">
+                    <h2>Welcome to Pondarosa BBQ Catering</h2>
+                    <p>We specialize in providing mouth-watering BBQ and smoked meats for weddings, corporate events, private functions, and more.</p>
+                    <a href="#services" class="btn btn-primary">Discover Our Services</a>
+                </div>
             </div>
         </section>
 
-        <div class="video-background position-relative">
-            <video autoplay muted loop id="bg-video" class="w-100">
-                <source src="path-to-your-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="video-overlay position-absolute w-100 h-100"></div>
-        </div>
-        
-        <section class="testimonials py-5 bg-dark text-white text-center">
+        <section id="services" class="our-services py-5">
             <div class="container">
-                <h2>Testimonials</h2>
+                <h2 class="text-center">Our Services</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-item">
+                            <h3>Weddings</h3>
+                            <p>Make your special day unforgettable with our delicious BBQ catering.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-item">
+                            <h3>Corporate Events</h3>
+                            <p>Impress clients and colleagues alike with our flavorful BBQ options.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-item">
+                            <h3>Private Functions</h3>
+                            <p>Celebrate birthdays, anniversaries, and more with our customized catering services.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="service-item">
+                            <h3>Why BBQ Food?</h3>
+                            <p>We believe BBQ food adds a unique flavor and charm to any event, creating memorable experiences for all guests.</p>
+                            <p>Our state-of-the-art BBQ and smoker equipment ensure that every dish is cooked to perfection.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">What Our Customers Say</h2>
                 <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <p>"The catering at our wedding was phenomenal! Everyone loved the food and the service was exceptional." - Customer A</p>
+                            <blockquote class="blockquote text-center">
+                                <p class="mb-0">"Amazing food and service! Pondarosa BBQ Catering made our wedding reception truly special."</p>
+                                <footer class="blockquote-footer">John and Mary, Wedding Clients</footer>
+                            </blockquote>
                         </div>
                         <div class="carousel-item">
-                            <p>"For our corporate event, this company provided outstanding food and service. Highly recommend!" - Customer B</p>
+                            <blockquote class="blockquote text-center">
+                                <p class="mb-0">"The smoked meats were incredible! Highly recommend Pondarosa BBQ Catering for any event."</p>
+                                <footer class="blockquote-footer">Jane Doe, Corporate Event</footer>
+                            </blockquote>
                         </div>
-                        <div class="carousel-item">
-                            <p>"From the planning stages to the event day, the team was professional and the food was delicious!" - Customer C</p>
-                        </div>
+                        <!-- Add more testimonials as needed -->
                     </div>
                     <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
