@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Light grey background */
+    color: #4a4a4a; /* Dark grey text color */
+}
+
+header {
+    background-color: #333333; /* Dark grey */
+    border-bottom: 2px solid #bb0000;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+}
+
+.navbar {
+    border-bottom: 2px solid #bb0000;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #f7f7f7 !important; /* Light grey text color */
+}
+
+.video-background {
+    height: 60vh;
+    overflow: hidden;
+}
+
+#bg-video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.video-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.services {
+    background-color: #ffffff; /* White background */
+    color: #4a4a4a; /* Dark grey text color */
+    padding: 2em 0;
+}
+
+.enquiry-form {
+    background-color: #f7f7f7; /* Light grey background */
+    color: #4a4a4a; /* Dark grey text color */
+    padding: 2em 0;
+}
+
+.enquiry-form .form-control,
+.enquiry-form .btn {
+    color: #4a4a4a; /* Dark grey text color */
+}
+
+.carousel-inner p {
+    font-size: 1.2rem;
+    color: #4a4a4a; /* Dark grey text color */
+}
+
+footer {
+    background-color: #333333; /* Dark grey */
+    border-top: 2px solid #bb0000;
+    color: #f7f7f7; /* Light grey text color */
+}
